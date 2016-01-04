@@ -8,14 +8,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-
 	<table>
-	<c:forTokens var="token" items="JOIN,LOGIN,MYPAGE,CART" delims=",">
-	<tr>
-	${token}
-	</tr>
-	</c:forTokens>
-			</table>
-
+		<tr>
+			<c:forTokens var="token" items="JOIN,LOGIN,MYPAGE,CART" delims=",">
+				<td>${token}</td>
+			</c:forTokens>
+		</tr>
+	</table>
+	<hr>
 </body>
 </html>

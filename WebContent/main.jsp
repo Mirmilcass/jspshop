@@ -7,19 +7,21 @@
 <title>메인 페이지</title>
 </head>
 <body>
-	<header>
-		<jsp:include page="head.jsp" />
-	</header>
+	<article>
+		<header>
+			<jsp:include page="head.jsp" />
+		</header>
 
-	<nav>
-		<jsp:include page="nav.jsp" />
-	</nav>
+		<nav>
+			<jsp:include page="nav.jsp" />
+		</nav>
 
-	<jsp:include page="mainbody.jsp" />
+		<jsp:include page="mainbody.jsp" />
 
-	<footer>
-		<jsp:include page="foot.jsp" />
-	</footer>
+		<footer>
+			<jsp:include page="foot.jsp" />
+		</footer>
+	</article>
 
 </body>
 </html>
