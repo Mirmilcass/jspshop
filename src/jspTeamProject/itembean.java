@@ -6,6 +6,8 @@ public class itembean {
 	int price;
 
 	String etc;
+	String catalog;
+	String item_name;
 
 	public int getItem() {
 		return item;
@@ -47,7 +49,5 @@ public class itembean {
 		this.item_name = item_name;
 	}
 
-	String catalog;
-	String item_name;
 
 }

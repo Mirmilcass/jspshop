@@ -76,5 +76,4 @@ public class userbean {
 		this.mail = mail;
 	}
 
-
 }
