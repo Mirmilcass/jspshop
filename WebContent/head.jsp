@@ -10,11 +10,13 @@
 <body>
 
 	<table>
-	<c:forTokens var="token" items="JOIN,LOGIN,MYPAGE,CART" delims=",">
 	<tr>
+	<c:forTokens var="token" items="JOIN,LOGIN,MYPAGE,CART" delims=",">
+	<td>
 	${token}
-	</tr>
+	</td>
 	</c:forTokens>
+	</tr>
 			</table>
 
 </body>

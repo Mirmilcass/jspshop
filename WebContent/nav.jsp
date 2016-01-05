@@ -15,8 +15,7 @@
 			</td>
 		</tr>
 
-		<c:forTokens var="token" items="Outer,Top,Bottom,Dress,Shoes,Bag,All"
-			delims=",">
+		<c:forTokens var="token" items="OUTER,TOP,BOTTOM,DRESS,SHOES,BAG,ACC" delims=",">
 			<tr>
 				<td>${token}</td>
 			</tr>
