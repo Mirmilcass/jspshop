@@ -12,4 +12,16 @@
 		<welcome-file>default.htm</welcome-file>
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
+
+	<jsp-config>
+		<jsp-property-group>
+			<url-pattern>/page/*</url-pattern>
+			<include-prelude>/re/head.jsp</include-prelude>
+			<include-prelude>/re/nav.jsp</include-prelude>
+		</jsp-property-group>
+		<jsp-property-group>
+			<url-pattern>/body/*</url-pattern>
+			<include-coda>/re/foot.jsp</include-coda>
+		</jsp-property-group>
+	</jsp-config>
 </web-app>
