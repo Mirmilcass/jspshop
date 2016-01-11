@@ -3,8 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<style type="text/css">
+section#join_form {
+	position: fixed;
+	left: 142px;
+}
+</style>
 </head>
 <body>
 	<table>
