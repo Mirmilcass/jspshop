@@ -7,26 +7,23 @@
 <style type="text/css">
 table#head {
 	display: table-cell;
-	background-color: #ffb6c1;
-	width: 100%;
-	height: 70px;
 	position: fixed;
-	top: 0px;
+	top: 55px;
 	left: 142px;
-}
+	right: 0px;
+	margin-left: 3px;
+}   
 </style>
 </head>
-<body>
+<body id="headbody">
 	<table id="head">
 		<tr>
-			<c:forTokens var="token" items="JOIN,LOGIN,MYPAGE,CART,Q&A"
+			<c:forTokens var="token" items="JOIN,LOGIN,MYPAGE,CART,QnA"
 				delims=",">
-				<td>
-					<img src="/../img/폴더 /${token}.bif">
-				</td>
+				<td>${token}</td>
 			</c:forTokens>
 		</tr>
 	</table>
-	<!-- 	<hr> -->
+	<hr>
 </body>
 </html>

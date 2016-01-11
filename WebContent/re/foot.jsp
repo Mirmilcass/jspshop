@@ -6,8 +6,9 @@
 <style type="text/css">
 body {
 	position: fixed;
-	left: 142px;
 	bottom: 0px;
+	left: 142px;
+	right: 0px;
 }
 
 h4, p {

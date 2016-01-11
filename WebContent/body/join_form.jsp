@@ -9,6 +9,7 @@ section#join_form {
 	position: fixed;
 	top: 70px;
 	left: 142px;
+	right: 0px;
 }
 </style>
 </head>
