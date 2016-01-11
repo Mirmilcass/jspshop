@@ -2,14 +2,39 @@ package jspTeamProject;
 
 public class userbean {
 
-	String mail;
-	String address;
+	int join_date;
+	int mobile;
+	int birthday;
+
 	String id;
 	String password;
 	String name;
+	String address;
+	String mail;
 
-	int mobile;
-	int birthday;
+	public int getJoin_date() {
+		return join_date;
+	}
+
+	public void setJoin_date(int join_date) {
+		this.join_date = join_date;
+	}
+
+	public int getMobile() {
+		return mobile;
+	}
+
+	public void setMobile(int mobile) {
+		this.mobile = mobile;
+	}
+
+	public int getBirthday() {
+		return birthday;
+	}
+
+	public void setBirthday(int birthday) {
+		this.birthday = birthday;
+	}
 
 	public String getId() {
 		return id;
@@ -35,14 +60,6 @@ public class userbean {
 		this.name = name;
 	}
 
-	public String getMail() {
-		return mail;
-	}
-
-	public void setMail(String mail) {
-		this.mail = mail;
-	}
-
 	public String getAddress() {
 		return address;
 	}
@@ -51,20 +68,12 @@ public class userbean {
 		this.address = address;
 	}
 
-	public int getBirthday() {
-		return birthday;
+	public String getMail() {
+		return mail;
 	}
 
-	public void setBirthday(int birthday) {
-		this.birthday = birthday;
-	}
-
-	public int getMobile() {
-		return mobile;
-	}
-
-	public void setMobile(int mobile) {
-		this.mobile = mobile;
+	public void setMail(String mail) {
+		this.mail = mail;
 	}
 
 }
