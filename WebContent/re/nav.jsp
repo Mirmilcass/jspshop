@@ -4,14 +4,13 @@
 <table>
 	<tr>
 		<td>
-			<img alt="로고" src="">
+			<img src="../img/logo.gif" alt="로고">
 		</td>
 	</tr>
-
 	<c:forTokens var="token" items="OUTER,TOP,BOTTOM,DRESS,SHOES,BAG,ACC"
 		delims=",">
 		<tr>
-			<td>${token}</td>
+		<td>${token}</td>
 		</tr>
 	</c:forTokens>
 </table>
