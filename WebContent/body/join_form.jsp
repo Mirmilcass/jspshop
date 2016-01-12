@@ -58,8 +58,9 @@
 				</td>
 			</tr>
 			<tr>
-				<td>
-					<input type="submit" value="회원가입">
+				<td colspan="2" align="center">
+					<input type="submit" value="회원가입"> </td>
+					</tr>
 		</table>
 	</form>
 </section>
