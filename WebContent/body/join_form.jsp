@@ -20,6 +20,13 @@
 				</td>
 			</tr>
 			<tr>
+				<td>PASSWORD Cheak :</td>
+				<td>
+					<!-- 		<input type="password" name="pwCheak"> 테스트 후 사용-->
+					<input type="text" name="pwCheck">
+				</td>
+			</tr>
+			<tr>
 				<td>NAME :</td>
 				<td>
 					<input type="text" name="name">

@@ -4,14 +4,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="../css/mainCSS.css">
+<link rel="stylesheet" type="text/css" href="./css/mainCSS.css">
 </head>
-<body id="headbody">
-	<table id="head">
-		<tr>
-			<c:forTokens var="token" items="JOIN,LOGIN,MYPAGE,CART,QnA"
-				delims=",">
-				<td>${token}</td>
-			</c:forTokens>
-		</tr>
-	</table>
+<body>
+	<header>
+		<table id="head">
+			<tr>
+				<c:forTokens var="token" items="JOIN,LOGIN,MYPAGE,CART,QnA"
+					delims=",">
+					<td>${token}</td>
+				</c:forTokens>
+			</tr>
+		</table>
+	</header>

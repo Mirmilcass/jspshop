@@ -1,4 +1,4 @@
-package jspTeamProject;
+package bean;
 
 public class userbean {
 
