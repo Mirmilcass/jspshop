@@ -5,7 +5,7 @@
 	<table>
 		<tr>
 			<td>
-				<img src="../img/logo.gif" alt="로고" height="70">
+				<img src="./img/logo.gif" alt="로고" height="70">   
 			</td>
 		</tr>
 		<c:forTokens var="token" items="OUTER,TOP,BOTTOM,DRESS,SHOES,BAG,ACC"
