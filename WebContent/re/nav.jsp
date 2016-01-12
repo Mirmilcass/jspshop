@@ -1,24 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<!DOCTYPE html>
-<html>
-<head>
-<style type="text/css">
-table#nav {
-	display: table-cell;
-	padding: 0px;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	width: 145px;
-	height: 100%;
-}
-</style>
-</head>
-<body>
-	<table id="nav">
-		<tr>                         
+<nav>
+	<table>
+		<tr>
 			<td>
 				<img src="../img/logo.gif" alt="로고" height="70">
 			</td>
@@ -30,5 +15,4 @@ table#nav {
 			</tr>
 		</c:forTokens>
 	</table>
-</body>
-</html>
+</nav>

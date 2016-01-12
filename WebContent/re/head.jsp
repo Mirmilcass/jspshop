@@ -4,16 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style type="text/css">
-table#head {
-	display: table-cell;
-	position: fixed;
-	top: 55px;
-	left: 142px;
-	right: 0px;
-	margin-left: 3px;
-}   
-</style>
+<link rel="stylesheet" type="text/css" href="../css/mainCSS.css">
 </head>
 <body id="headbody">
 	<table id="head">
@@ -24,6 +15,3 @@ table#head {
 			</c:forTokens>
 		</tr>
 	</table>
-	<hr>
-</body>
-</html>
