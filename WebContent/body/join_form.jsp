@@ -2,7 +2,6 @@
 	pageEncoding="UTF-8"%>
 <section id="join_form">
 	<h1>회원가입</h1>
-	<hr>
 	<p />
 	<form id="join" action="#" method="post">
 		<table>

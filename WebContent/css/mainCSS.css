@@ -40,9 +40,16 @@ section#join_form {
 	width: 500px;
 }
 
-/* footer {
-	margin-left: 142px;
-} */
-.foot {
+section#join_form table {
+	width: 350px;
+	border-collapse: collapse;
+	border-top: solid 2px;
+}
+
+footer {
+	margin-top: 400px;
+}
+
+footer .foot {
 	text-align: center;
 }
