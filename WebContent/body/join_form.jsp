@@ -2,64 +2,64 @@
 	pageEncoding="UTF-8"%>
 <section id="join_form">
 	<h1>회원가입</h1>
-	<hr>
+	<hr style="border: red 2px dashed;">
 	<p />
 	<form id="join" action="#" method="post">
 		<table>
 			<tr>
-				<td>ID :</td>
+				<td>아이디 :</td>
 				<td>
 					<input type="text" name="id">
 				</td>
 			</tr>
 			<tr>
-				<td>PASSWORD :</td>
+				<td>비밀번호 :</td>
 				<td>
 					<!-- 		<input type="password" name="pw"> 테스트 후 사용-->
-					<input type="text" name="pw">
+					<input type="password" name="pw">
 				</td>
 			</tr>
 			<tr>
-				<td>PASSWORD Cheak :</td>
+				<td>재입력 :</td>
 				<td>
-					<!-- 		<input type="password" name="pwCheak"> 테스트 후 사용-->
-					<input type="text" name="pwCheck">
+					<!-- 		<input type="password" name="pw"> 테스트 후 사용-->
+					<input type="password" name="pw">
 				</td>
 			</tr>
 			<tr>
-				<td>NAME :</td>
+				<td>이름 :</td>
 				<td>
 					<input type="text" name="name">
 				</td>
 			</tr>
 			<tr>
-				<td>MAIL :</td>
+				<td>이메일 :</td>
 				<td>
 					<!-- 		<input type="email" name="mail"> 테스트 후 사용 -->
-					<input type="text" name="mail">
+					<input type="email" name="mail">
 				</td>
 			</tr>
 			<tr>
-				<td>ADDRESS :</td>
+				<td>주소 :</td>
 				<td>
 					<input type="search" name="addr">
 				</td>
 			</tr>
 			<tr>
-				<td>MOBILE :</td>
+				<td>전화번호 :</td>
 				<td>
 					<input type="tel" name="tel">
 				</td>
 			</tr>
 			<tr>
-				<td>BIRTHDAY :</td>
+				<td>생일 :</td>
 				<td>
 					<input type="date" name="birth">
 				</td>
 			</tr>
-			<tr>
-				<td>
-					<input type="submit" value="회원가입">
+					
 		</table>
+					<div style="text-align: right;"><input type="submit" value="회원가입"></div>
+					
 	</form>
 </section>

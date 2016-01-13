@@ -7,3 +7,4 @@
 <article>
 	<%-- 	<jsp:include page="../body/main.jsp" /> --%>
 	<jsp:include page="../body/join_form.jsp" />
+<%-- 	<jsp:include page="../body/login_form.jsp" /> --%>

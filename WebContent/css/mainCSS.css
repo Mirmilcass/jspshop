@@ -5,7 +5,7 @@ nav {
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	width: 145px;
+	width: 142px;
 	height: 100%;
 }
 
@@ -24,16 +24,35 @@ table#head {
 }
 
 section#join_form {
-	margin-top: 100px;
+	margin-top: 150px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 500px;
+	height: 800px;
 }
 
-footer {
-	margin-left: 142px;
+section#join_form td{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+section#login_form {
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	height: 600px;
+}
+
+section#login_form td{
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 .foot {
 	text-align: center;
+}
+
+article {
+	margin-left: 142px;
 }
