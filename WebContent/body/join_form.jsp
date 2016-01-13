@@ -2,7 +2,6 @@
 	pageEncoding="UTF-8"%>
 <section id="join_form">
 	<h1>회원가입</h1>
-	<hr>
 	<p />
 	<form id="join" action="#" method="post">
 		<table>
@@ -59,7 +58,12 @@
 			</tr>
 			<tr>
 				<td colspan="2" align="center">
+<<<<<<< HEAD
 					<input type="submit" value="회원가입"> </td>
+=======
+					<input type="submit" value="회원가입">
+				</td>
+>>>>>>> refs/remotes/Mirmilcass/master
 			</tr>
 		</table>
 	</form>
