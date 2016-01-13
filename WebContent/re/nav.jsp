@@ -5,13 +5,17 @@
 	<table>
 		<tr>
 			<td>
-				<img src="./img/logo.gif" alt="로고" height="70">   
+				<img src="./img/logo.gif" alt="로고" height="70"
+					onClick="location.href='main.do?reqview=main'"
+					style='cursor: pointer;'>
 			</td>
 		</tr>
 		<c:forTokens var="token" items="OUTER,TOP,BOTTOM,DRESS,SHOES,BAG,ACC"
 			delims=",">
 			<tr>
-				<td>${token}</td>
+				<td>
+					<a href="category.do?reqview=${token}" id="categorylist">${token}</a>
+				</td>
 			</tr>
 		</c:forTokens>
 	</table>

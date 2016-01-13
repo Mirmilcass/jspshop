@@ -1,14 +1,5 @@
 @CHARSET "UTF-8";
 
-nav {
-	padding: 0px;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	width: 145px;
-	height: 100%;
-}
-
 header {
 	background-color: white;
 	position: fixed;
@@ -19,8 +10,27 @@ header {
 	margin-left: 3px;
 }
 
+nav {
+	padding: 0px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 145px;
+	height: 100%;
+}
+
+header a.menulist:link, header a.menulist:VISITED, nav a#categorylist:LINK,
+	nav a#categorylist:VISITED {
+	color: black;
+	text-decoration: none;
+}
+
 table#head {
 	margin-top: 50px;
+}
+
+article {
+	margin-left: 142px;
 }
 
 section#join_form {
@@ -30,10 +40,9 @@ section#join_form {
 	width: 500px;
 }
 
-footer {
+/* footer {
 	margin-left: 142px;
-}
-
+} */
 .foot {
 	text-align: center;
 }

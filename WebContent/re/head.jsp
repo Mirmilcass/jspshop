@@ -12,7 +12,13 @@
 			<tr>
 				<c:forTokens var="token" items="JOIN,LOGIN,MYPAGE,CART,QnA"
 					delims=",">
-					<td>${token}</td>
+					<td>
+						<a href="main.do?reqview=${token}" class="menulist">${token}</a>
+						<c:if var="admin" test="${admin }">
+							<!--  어드민 값이 있을때 표현.. 아마 -->
+							<a href="main.do?reqview=admin" class="menulist">admin</a>
+						</c:if>
+					</td>
 				</c:forTokens>
 			</tr>
 		</table>
