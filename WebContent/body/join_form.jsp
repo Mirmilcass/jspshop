@@ -8,58 +8,49 @@
 		<table>
 			<tr>
 				<td>아이디 :</td>
-				<td>
-					<input type="text" name="id">
-				</td>
+				<td><input type="text" name="id"></td>
 			</tr>
 			<tr>
 				<td>비밀번호 :</td>
 				<td>
-					<!-- 		<input type="password" name="pw"> 테스트 후 사용-->
-					<input type="password" name="pw">
+					<!-- 		<input type="password" name="pw"> 테스트 후 사용--> <input
+					type="password" name="pw">
 				</td>
 			</tr>
 			<tr>
 				<td>재입력 :</td>
 				<td>
-					<!-- 		<input type="password" name="pw"> 테스트 후 사용-->
-					<input type="password" name="pw">
+					<!-- 		<input type="password" name="pw"> 테스트 후 사용--> <input
+					type="password" name="pw">
 				</td>
 			</tr>
 			<tr>
 				<td>이름 :</td>
-				<td>
-					<input type="text" name="name">
-				</td>
+				<td><input type="text" name="name"></td>
 			</tr>
 			<tr>
 				<td>이메일 :</td>
 				<td>
-					<!-- 		<input type="email" name="mail"> 테스트 후 사용 -->
-					<input type="email" name="mail">
+					<!-- 		<input type="email" name="mail"> 테스트 후 사용 --> <input
+					type="email" name="mail">
 				</td>
 			</tr>
 			<tr>
 				<td>주소 :</td>
-				<td>
-					<input type="search" name="addr">
-				</td>
+				<td><input type="search" name="addr"></td>
 			</tr>
 			<tr>
 				<td>전화번호 :</td>
-				<td>
-					<input type="tel" name="tel">
-				</td>
+				<td><input type="tel" name="tel"></td>
 			</tr>
 			<tr>
 				<td>생일 :</td>
-				<td>
-					<input type="date" name="birth">
+				<td><input type="date" name="birth"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right"><input type="submit" value="회원가입">
 				</td>
 			</tr>
-					
 		</table>
-					<div style="text-align: right;"><input type="submit" value="회원가입"></div>
-					
 	</form>
 </section>

@@ -7,4 +7,7 @@
 	<tr>
 		<th>신상품</th>
 	</tr>
+	<tr>
+		<td></td>
+	</tr>
 </table>

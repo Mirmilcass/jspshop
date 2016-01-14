@@ -36,8 +36,7 @@ public class mainctr extends HttpServlet {
 		// user request handle
 
 		if (requestpage.equals("index")) {
-			ctx.getRequestDispatcher(VIEWPATH + "index.jsp").forward(request,
-					response);
+			ctx.getRequestDispatcher("index.jsp").forward(request, response);
 		} else if (requestpage.equals("main")) {
 			ctx.getRequestDispatcher(VIEWPATH + "mainpage.jsp").forward(
 					request, response);

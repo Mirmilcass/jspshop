@@ -1,14 +1,5 @@
 @CHARSET "UTF-8";
 
-nav {
-	padding: 0px;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	width: 142px;
-	height: 100%;
-}
-
 header {
 	background-color: white;
 	position: fixed;
@@ -19,8 +10,27 @@ header {
 	margin-left: 3px;
 }
 
+nav {
+	padding: 0px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 145px;
+	height: 100%;
+}
+
+header a.menulist:link, header a.menulist:VISITED, nav a#categorylist:LINK,
+	nav a#categorylist:VISITED {
+	color: black;
+	text-decoration: none;
+}
+
 table#head {
 	margin-top: 50px;
+}
+
+article {
+	margin-left: 142px;
 }
 
 section#join_form {
@@ -31,9 +41,15 @@ section#join_form {
 	height: 800px;
 }
 
-section#join_form td{
+section#join_form td {
 	padding-bottom: 20px;
 	padding-top: 20px;
+}
+
+section#join_form table {
+	width: 350px;
+	border-collapse: collapse;
+	border-top: solid 2px;
 }
 
 section#login_form {
@@ -48,8 +64,11 @@ section#login_form {
 /* 	padding-bottom: 10px; */
 /* 	padding-top: 10px; */
 /* } */
+footer {
+	margin-top: 400px;
+}
 
-.foot {
+footer .foot {
 	text-align: center;
 }
 
