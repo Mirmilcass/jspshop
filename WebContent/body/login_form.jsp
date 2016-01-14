@@ -23,6 +23,7 @@
 		<hr style="border: grey 1px dashed;">
 		<a href="http://naver.com" style="font-size: 10px">회원가입</a>&nbsp<a
 			href="http://daum.net" style="font-size: 10px">아이디,비밀번호 찾기</a>
+			sssss
 
 	</form>
 	</section>
