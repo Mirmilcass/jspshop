@@ -6,6 +6,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="./css/mainCSS.css">
 </head>
+
 <body>
 	<header>
 		<table id="head">
@@ -21,5 +22,6 @@
 					</td>
 				</c:forTokens>
 			</tr>
+
 		</table>
 	</header>
