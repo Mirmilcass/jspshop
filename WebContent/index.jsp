@@ -9,6 +9,7 @@
 <body>
 	<c:redirect url="/main.do">
 		<c:param name="reqview" value="main" />
+		<c:param name="bodyview" value="main" />
 	</c:redirect>
 </body>
 </html>

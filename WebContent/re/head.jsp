@@ -16,10 +16,10 @@
 				<c:forTokens var="token" items="JOIN,LOGIN,MYPAGE,CART,QnA"
 					delims=",">
 					<td>
-						<a href="main.do?reqview=${token}" class="menulist">${token}</a>
+						<a href="main.do?reqview=main&bodyview=${token	}" class="menulist">${token}</a>
 						<c:if var="admin" test="${admin }">
 							<!--  어드민 값이 있을때 표현.. 아마 -->
-							<a href="main.do?reqview=admin" class="menulist">admin</a>
+							<a href="main.do?bodyview=admin" class="menulist">admin</a>
 						</c:if>
 					</td>
 				</c:forTokens>
