@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+package db;
+
+public class DBAction {
+
+}
+=======
 package db;
 
 import java.sql.Connection;
@@ -34,3 +41,4 @@ public class DBAction {
 	}
 
 }
+>>>>>>> refs/remotes/Mirmilcass/master

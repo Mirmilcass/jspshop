@@ -48,8 +48,17 @@
 				<td><input type="date" name="birth"></td>
 			</tr>
 			<tr>
+<<<<<<< HEAD
+				<td colspan="2" align="center">
+<<<<<<< HEAD
+					<input type="submit" value="회원가입"> </td>
+=======
+					<input type="submit" value="회원가입">
+=======
 				<td colspan="2" align="right"><input type="submit" value="회원가입">
+>>>>>>> refs/remotes/Mirmilcass/master
 				</td>
+>>>>>>> refs/remotes/Mirmilcass/master
 			</tr>
 		</table>
 	</form>
