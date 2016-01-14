@@ -6,7 +6,7 @@
 		<tr>
 			<td>
 				<img src="./img/logo.gif" alt="로고" height="70"
-					onClick="location.href='main.do?reqview=main'"
+					onClick="location.href='main.do?reqview=main&bodyview=main'"
 					style='cursor: pointer;'>
 			</td>
 		</tr>

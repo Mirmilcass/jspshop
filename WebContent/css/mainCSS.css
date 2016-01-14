@@ -1,20 +1,30 @@
 @CHARSET "UTF-8";
 
+body {
+	max-height: 768px;
+	max-width: 1024px;
+	position: relative;
+	margin: 0 auto;
+}
+
 header {
 	background-color: white;
 	position: fixed;
 	top: 0px;
-	left: 142px;
-	right: 0px;
+	width: 100%;
 	height: 75px;
-	margin-left: 3px;
+}
+
+table#head {
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 nav {
 	padding: 0px;
 	position: fixed;
 	top: 0px;
-	left: 0px;
 	width: 145px;
 	height: 100%;
 }
@@ -25,47 +35,45 @@ header a.menulist:link, header a.menulist:VISITED, nav a#categorylist:LINK,
 	text-decoration: none;
 }
 
-table#head {
-	margin-top: 50px;
-}
-
 article {
 	margin-left: 142px;
 }
 
+section {
+	position: relative;
+	top: 150px;
+}
+
 section#join_form {
-	margin-top: 150px;
-	margin-left: auto;
-	margin-right: auto;
 	width: 500px;
 	height: 800px;
+	margin: 0 auto;
 }
 
 section#join_form td {
-	padding-bottom: 20px;
-	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 section#join_form table {
 	width: 350px;
-	border-collapse: collapse;
-	border-top: solid 2px;
 }
 
 section#login_form {
-	margin-top: 150px;
-	margin-left: auto;
-	margin-right: auto;
 	width: 400px;
 	height: 600px;
+	margin: 0 auto;
+}
+
+section#login_form a:link, section#login_form a:VISITED {
+	color: black;
+	text-decoration: none;
 }
 
 section#mypage_form {
-	margin-top: 150px;
-	margin-left: auto;
-	margin-right: auto;
 	width: 400px;
 	height: 300px;
+	margin: 0 auto;
 }
 
 footer {
@@ -74,8 +82,4 @@ footer {
 
 footer .foot {
 	text-align: center;
-}
-
-article {
-	margin-left: 142px;
 }
