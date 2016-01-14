@@ -1,20 +1,24 @@
 @CHARSET "UTF-8";
+body{
+	max-height: 768px;
+	max-width: 1024px;
+	position: relative;
+	margin: 0 auto;
+}
 
 header {
-	background-color: white;
+	background-color: black;
 	position: fixed;
-	top: 0px;
-	left: 142px;
-	right: 0px;
+	top: 0%;
+	left: 50%;
+	right: 50%;
 	height: 75px;
-	margin-left: 3px;
 }
 
 nav {
 	padding: 0px;
 	position: fixed;
-	top: 0px;
-	left: 0px;
+	top:0px;
 	width: 145px;
 	height: 100%;
 }
@@ -42,14 +46,12 @@ section#join_form {
 }
 
 section#join_form td {
-	padding-bottom: 20px;
-	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 section#join_form table {
 	width: 350px;
-	border-collapse: collapse;
-	border-top: solid 2px;
 }
 
 section#login_form {
@@ -76,6 +78,3 @@ footer .foot {
 	text-align: center;
 }
 
-article {
-	margin-left: 142px;
-}
