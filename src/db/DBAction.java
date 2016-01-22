@@ -13,8 +13,7 @@ public class DBAction {
 			Class.forName("com.mysql.jdbc.Driver");
 			// 학원 사용
 			conn = DriverManager.getConnection(
-					"jdbc:mysql://192.168.0.48:3306/teamproject", "hr",
-					"oracle");
+					"jdbc:mysql://Milcass:3306/teamproject", "hr", "oracle");
 
 		} catch (ClassNotFoundException e) {
 			System.out.println(e.getMessage());

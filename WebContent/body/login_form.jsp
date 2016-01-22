@@ -1,9 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <section id="login_form">
-	<form id="login" action="#" method="post">
+	<form name="login" action="./body/list.jsp" method="post">
 		<h1>LOGIN</h1>
-		<hr style="border: red 2px dashed;">
+		<hr>
 		<table>
 			<tr>
 				<td>id :</td>
@@ -11,7 +11,8 @@
 					<input type="text" name="id">
 				</td>
 				<td rowspan="2">
-					<input type="image" name="login" src="./img/login.gif">
+					<input type="image" alt="loginlogo" src="./img/login.gif"
+						onclick="logincheak(this.form); return false;">
 				</td>
 			</tr>
 			<tr>
@@ -19,12 +20,12 @@
 				<td>
 					<input type="password" name="pass">
 				</td>
-				<td></td>
 			</tr>
 		</table>
-		<hr style="border: grey 1px dashed;">
-		<a href="http://naver.com" style="font-size: 10px">회원가입</a>&nbsp;<a
-			href="http://daum.net" style="font-size: 10px">아이디,비밀번호 찾기</a>
+		<hr id="under">
+		<a href="main.do?reqview=main&bodyview=join">회원가입</a>
+		&nbsp;&nbsp;
+		<a href="http://daum.net">아이디,비밀번호 찾기</a>
 
 	</form>
 </section>

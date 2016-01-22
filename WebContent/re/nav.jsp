@@ -14,7 +14,8 @@
 			delims=",">
 			<tr>
 				<td>
-					<a href="category.do?reqview=${token}" id="categorylist">${token}</a>
+					<a href="main.do?reqview=category&bodyview=${token}"
+						id="categorylist">${token}</a>
 				</td>
 			</tr>
 		</c:forTokens>

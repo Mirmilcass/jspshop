@@ -7,6 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>PINKQK</title>
 <link rel="stylesheet" type="text/css" href="./css/mainCSS.css">
+<script type="text/javascript" src="./js/mainJS.js"></script>
 </head>
 
 <body>
@@ -19,7 +20,7 @@
 						<a href="main.do?reqview=main&bodyview=${token	}" class="menulist">${token}</a>
 						<c:if var="admin" test="${admin }">
 							<!--  어드민 값이 있을때 표현.. 아마 -->
-							<a href="main.do?bodyview=admin" class="menulist">admin</a>
+							<a href="main.do?reqview=main&bodyview=admin" class="menulist">admin</a>
 						</c:if>
 					</td>
 				</c:forTokens>

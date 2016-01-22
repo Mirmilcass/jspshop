@@ -1,39 +1,30 @@
-package bean;
+package beans;
 
-public class userbean {
-
-	int join_date;
-	int mobile;
-	int birthday;
+public class customerBean {
 
 	String id;
 	String password;
 	String name;
 	String address;
 	String mail;
+	String birth;
 
-	public int getJoin_date() {
-		return join_date;
+	int tel;
+
+	public int getTel() {
+		return tel;
 	}
 
-	public void setJoin_date(int join_date) {
-		this.join_date = join_date;
+	public void setTel(int tel) {
+		this.tel = tel;
 	}
 
-	public int getMobile() {
-		return mobile;
+	public String getBirth() {
+		return birth;
 	}
 
-	public void setMobile(int mobile) {
-		this.mobile = mobile;
-	}
-
-	public int getBirthday() {
-		return birthday;
-	}
-
-	public void setBirthday(int birthday) {
-		this.birthday = birthday;
+	public void setBirth(String birth) {
+		this.birth = birth;
 	}
 
 	public String getId() {

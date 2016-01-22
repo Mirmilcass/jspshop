@@ -13,6 +13,10 @@
 		<welcome-file>default.jsp</welcome-file>
 	</welcome-file-list>
 
+	<error-page>
+		<location>/errors/error.jsp</location>
+	</error-page>
+
 	<jsp-config>
 		<jsp-property-group>
 			<url-pattern>/page/*</url-pattern>

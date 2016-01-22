@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import user.CustomerServiceImpl;
 
 @WebServlet("/main.do")
 public class mainctr extends HttpServlet {
@@ -29,10 +30,9 @@ public class mainctr extends HttpServlet {
 			HttpServletResponse response) throws ServletException, IOException {
 		// user request page
 		String requestpage = request.getParameter("reqview");
-		String requestbody = request.getParameter("bodyview");
 
 		// service
-
+		CustomerServiceImpl customerService = new CustomerServiceImpl();
 		ServletContext ctx = request.getServletContext();
 
 		// user request handle
@@ -40,22 +40,37 @@ public class mainctr extends HttpServlet {
 		if (requestpage.equals("index")) {
 			ctx.getRequestDispatcher("index.jsp").forward(request, response);
 		} else if (requestpage.equals("main")) {
+
+			String requestbody = request.getParameter("bodyview").toLowerCase();
+
 			if (requestbody.equals("main")) {
 				request.setAttribute("bodyview", BODYPATH + requestbody
 						+ ".jsp");
-			} else if (requestbody.equals("JOIN")) {
-				request.setAttribute("bodyview", BODYPATH + "join_form.jsp");
-			} else if (requestbody.equals("LOGIN")) {
-				request.setAttribute("bodyview", BODYPATH + "login_form.jsp");
-			} else if (requestbody.equals("MYPAGE")) {
-				request.setAttribute("bodyview", BODYPATH + "mypage_form.jsp");
-			} else if (requestbody.equals("CART")) {
-				request.setAttribute("bodyview", BODYPATH + "cart_form.jsp");
-			} else if (requestbody.equals("QnA")) {
-				request.setAttribute("bodyview", BODYPATH + "qna_form.jsp");
+			} else if (requestbody.equals("admin")) {
+				request.setAttribute("bodyview", BODYPATH + requestbody
+						+ ".jsp");
+			} else {
+				request.setAttribute("bodyview", BODYPATH + requestbody
+						+ "_form.jsp");
 			}
+
 			ctx.getRequestDispatcher(VIEWPATH + "mainpage.jsp").forward(
 					request, response);
+		} else if (requestpage.equals("category")) {
+			ctx.getRequestDispatcher(VIEWPATH + "mainpage.jsp").forward(
+					request, response);
+		}
+		// JOIN ID Cheak
+		else if (requestpage.equals("cheakid")) {
+			String id = request.getParameter("id").trim();
+			int result = customerService.idCheak(id);
+			if (result > 0) {
+				ctx.getRequestDispatcher(ERRORPATH + "idCheakSuccess.jsp")
+						.forward(request, response);
+			} else {
+				ctx.getRequestDispatcher(ERRORPATH + "fail.jsp").forward(
+						request, response);
+			}
 		}
 
 	}
